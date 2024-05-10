@@ -150,4 +150,10 @@ footer {
   background-color: black;
 }
 
-
+@media screen and (max-width: 992px) {
+  .screen {
+    display: flex;
+    margin-top: 5rem;
+    margin-right: auto;
+  }
+}
