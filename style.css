@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Questrial&display=swap');
 
-body {
+html, body {
   font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 
@@ -9,6 +12,7 @@ body {
   background-image: url(assets/main-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 960px;
   display: flex;
   flex-direction: column;
@@ -23,13 +27,15 @@ body {
 
 #home .scroll-down {
   display: block;
-  margin: auto
+  margin: auto;
 }
 
 #aboutGame {
   background-image: url(assets/the-games-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  
+  background-position: center;
   height: 987px;
   display: flex;
   justify-content: center;
@@ -64,6 +70,8 @@ body {
   background-image: url(assets/features.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  
+  background-position: center;
   height: 960px;
   display: flex;
   justify-content: center;
@@ -85,6 +93,8 @@ body {
   background-image: url(assets/requirements.png);
   background-repeat: no-repeat;
   background-size: cover;
+  
+  background-position: center;
   height: 960px;
   display: flex;
   justify-content: center;
@@ -114,6 +124,7 @@ body {
   background-image: url(assets/top-score-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 960px;
   display: flex;
   justify-content: center;
@@ -135,6 +146,7 @@ body {
   background-image: linear-gradient(to top, rgba(0,0,0,1), transparent 50%, rgba(0,0,0,1)),url(assets/newsletter.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 960px;
   display: flex;
   justify-content: center;
@@ -155,5 +167,8 @@ footer {
     display: flex;
     margin-top: 5rem;
     margin-right: auto;
+  }
+  .rstMargin {
+    margin-left: 0% !important;
   }
 }
