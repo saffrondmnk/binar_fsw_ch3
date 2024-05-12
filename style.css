@@ -168,7 +168,7 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  .screen {
+  .screen992 {
     display: flex;
     margin-top: 5rem;
     margin-right: auto;
