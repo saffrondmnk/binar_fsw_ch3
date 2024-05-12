@@ -167,13 +167,20 @@ footer {
 
 }
 
-@media screen and (max-width: 992px) {
-  .screen992 {
+@media screen and (max-width: 768px) {
+  .screen768 {
     display: flex;
     margin-top: 5rem;
     margin-right: auto;
   }
   .rstMargin {
     margin-left: 0% !important;
+  }
+  
+}
+
+@media screen and (max-width: 992px) {
+  .fontResize992 {
+    font-size: 1.5em;
   }
 }
