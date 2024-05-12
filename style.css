@@ -162,6 +162,11 @@ footer {
   background-color: black;
 }
 
+.nav-link small {
+  color:#FFFFFF;
+
+}
+
 @media screen and (max-width: 992px) {
   .screen {
     display: flex;
